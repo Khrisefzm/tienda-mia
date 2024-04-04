@@ -7,7 +7,6 @@ img {
   width: 100%;
 }
 header {
-  border: 1px solid red;
   height: auto;
   background-color: #4b0058;
 }
@@ -67,7 +66,6 @@ header {
   text-decoration: underline;
 }
 #hero {
-  border: 1px solid purple;
   height: 340px;
   background: url(./assets/hero_bg.png);
   background-size: cover;
@@ -91,14 +89,12 @@ header {
   line-height: 80px;
 }
 main {
-  border: 1px solid blue;
   height: auto;
 }
 .container {
   width: 95%;
   max-width: 1220px;
   margin: 0 auto;
-  border: 1px solid springgreen;
   height: inherit;
   min-height: inherit;
 }
@@ -112,7 +108,7 @@ main {
   background-color: #f0f0f0;
   border-radius: 14px;
   overflow: hidden;
-  border: 1px solid black;
+  border: 1px solid gray;
   width: auto;
 }
 .product-img {
@@ -160,7 +156,6 @@ main {
   color: #428f13;
 }
 footer {
-  border: 1px solid #009145;
   min-height: 368px;
   background-color: #7525a7;
 }
