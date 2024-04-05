@@ -88,6 +88,23 @@ footer .container {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  gap: 20px;
+}
+.product-images-block,
+.product-description-block,
+.product-checkout-block {
+  flex: 1;
+  padding: 20px 0;
+}
+.product-description-block .title {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 0;
+  word-wrap: break-word;
+}
+.sales-block {
+  padding: 20px 0;
 }
 .columns-container .col ul {
   list-style-type: none;
