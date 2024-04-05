@@ -103,6 +103,28 @@ footer .container {
   margin-top: 0;
   word-wrap: break-word;
 }
+.product-description-block .selector fieldset {
+  border: 2px gray solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 25px;
+  border-radius: 15px;
+  font-size: 15px;
+  padding: 5px 11px;
+}
+.product-description-block .selector fieldset select {
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+.product-description-block .description p {
+  color: grey;
+  font-size: 16px;
+  font-weight: lighter;
+  word-wrap: break-word;
+}
 .sales-block {
   padding: 20px 0;
 }
